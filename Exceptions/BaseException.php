@@ -1,8 +1,9 @@
 <?php
 
 /**
- * BaseException class which inherits from Exception
- * Goal of it is to inherit from this for others
+ * Class BaseException (inherits from Exception)
+ * 
+ * Base exception class to be extended by other application exceptions.
  */
 class BaseException extends \Exception
 { 
