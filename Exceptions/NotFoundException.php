@@ -28,6 +28,9 @@ class NotFoundException extends BaseException
      */
     public function __construct(string $message = "Resource not found")
     {
-        parent::__construct($message,self::CODE,self::HTTP_ERROR_CODE,self::ERROR_CODE);
+        parent::__construct($message,
+                            self::CODE,
+                            self::HTTP_ERROR_CODE,
+                            self::ERROR_CODE);
     }
 }
