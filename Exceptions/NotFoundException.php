@@ -3,27 +3,27 @@
 /**
  * Class NotFoundException
  * 
- * Thrown when requesting data or ressource that cannot be found
+ * Thrown when requesting data or ressource that cannot be found.
  */
 class NotFoundException extends BaseException
 {
     /**
-    * Internal application error code
+    * Internal application error code.
     */
     private const CODE = 0;
     /**
-     * HTTP Status Code for API-Responses
+     * HTTP status code for API-Responses.
      */
     private const HTTP_ERROR_CODE = 404;
     /**
-     * Unique error code identifier
+     * Unique error code identifier.
      */
     private const ERROR_CODE = "NOT_FOUND";
         
     /**
      * NotFoundException Constructor
      *
-     * @param string $message Optional custom message
+     * @param string $message Optional custom message describing the NotFound error.
      *
      */
     public function __construct(string $message = "Resource not found")
