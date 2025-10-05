@@ -10,12 +10,12 @@ Each component is self-contained and framework-agnostic.
 ### 🗄️ [Database](./Database)
 Lightweight PDO connection manager.  
 Singleton pattern, custom factory support, test-friendly.  
-See the [Database README](./Database/README.md) for usage examples.
+See the [Database README](./Database/readme.md) for usage examples.
 
 ### ⚠️ [Exceptions](./Exceptions)
 Structured Exception classes for PHP.  
 Includes BaseException, ValidationException, NotFoundException, and more.  
-See the [Exceptions README](./Exceptions/README.md) for usage examples.
+See the [Exceptions README](./Exceptions/readme.md) for usage examples.
 
 
 ---
