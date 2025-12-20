@@ -5,14 +5,14 @@ Each component is self-contained and framework-agnostic.
 
 ---
 
-## 📦 Available Modules
+## Available Modules
 
-### 🗄️ [Database](./Database)
+### [Database](./Database)
 Lightweight PDO connection manager.  
 Singleton pattern, custom factory support, test-friendly.  
 See the [Database README](./Database/readme.md) for usage examples.
 
-### ⚠️ [Exceptions](./Exceptions)
+### [Exceptions](./Exceptions)
 Structured Exception classes for PHP.  
 Includes BaseException, ValidationException, NotFoundException, and more.  
 See the [Exceptions README](./Exceptions/readme.md) for usage examples.
@@ -20,7 +20,7 @@ See the [Exceptions README](./Exceptions/readme.md) for usage examples.
 
 ---
 
-## 🚀 Installation
+## Installation
 Clone the repository:
 ```
 git clone https://github.com/Nivid42/PHP.git
@@ -30,7 +30,7 @@ Then include the module(s) you need in your project.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome!  
 Each module has its own README and structure — submit PRs or issues per module.
 
